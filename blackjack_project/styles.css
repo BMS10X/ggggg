@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url("./images/card_table.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: beige;
+   
+}
+
+
+
+.title {
+    color: #F2D57E;
+    text-shadow: 1px 2px 3px #171717;
+}
+
+
+
+.newGameBtn {
+    margin: auto;
+    background-color: #02590f;
+    border: 0.12em solid #F2D57E;
+    color: #F2D57E;
+    padding: 0.3rem 1.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.hidden {
+    display: none;
+}
